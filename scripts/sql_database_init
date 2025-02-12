@@ -1,10 +1,10 @@
 /*
-This script checks and deletes an existing database, then recreate a new database 'Datawarehouse'.
+Script purpose:
+This script checks and deletes an existing 'Datawarehouse' database, then recreates a new database 'Datawarehouse'.
 Creates a bronze, silver and gold schema inside the 'Datawarehouse database'
 */
 
 USE master;
-
 GO
 
 -- Drop and recreate 'Datawarehouse' database
@@ -23,7 +23,7 @@ GO
 USE Datawarehouse; 
 
 GO
--- Create bronze, silver, gold leyer schema
+-- Create bronze, silver, and gold layer schema
 
 CREATE SCHEMA bronze;
 GO
