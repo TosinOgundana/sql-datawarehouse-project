@@ -1,4 +1,18 @@
+/*
 =============================================================================
+Quality Checks
+=============================================================================
+This script performs quality checks for data consistency, accuracy, and 
+standardization across the silver schema. Below are the various checks:
+- Null or duplicate primary keys
+- Invalid date range and orders
+- Data consistency and standardization
+- Unwanted spaces in string fields
+- Extracted relevant IDs and Keys
+=============================================================================
+*\
+
+
 -- Bronze crm_cust_info data cleaning and transformation
 -- Check for Nulls or duplicates primary key
 -- Expectation: No result
