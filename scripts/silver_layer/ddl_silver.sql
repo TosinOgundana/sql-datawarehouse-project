@@ -16,7 +16,8 @@ CREATE TABLE silver.crm_cust_info (
 	cst_lastname NVARCHAR(50),
 	cst_marital_status NVARCHAR(50),
 	cst_gndr NVARCHAR(50),
-	cst_create_date DATETIME
+	cst_create_date DATETIME,
+	dwh_create_date DATETIME2 DEFAULT GETDATE()
 );
 
 IF OBJECT_ID ('silver.crm_prd_info', 'U') IS NOT NULL
