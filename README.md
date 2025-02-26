@@ -47,6 +47,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ---
 ## 🏗️ Data Architecture
 
+![flow](https://github.com/user-attachments/assets/d1ec5dda-db7a-4caf-9bad-7df6cfa3c141)
 
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into the SQL Server Database.
