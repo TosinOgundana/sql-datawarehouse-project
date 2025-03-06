@@ -1,5 +1,6 @@
 /*
-This SQL script showcased exploratory data analysis (EDA) using the GOLD schema views to explore the dimensions and key business metrics utilizing different SQL techniques  
+This SQL script showcased exploratory data analysis (EDA) using the GOLD schema views to explore 
+the dimensions and key business metrics utilizing different SQL techniques  
 */
 ==========================================================
 -- DATABASE EXPLORATION
